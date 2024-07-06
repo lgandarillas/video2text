@@ -17,7 +17,7 @@ python3 --version
 ### 1. Clone the repository
 First, clone this repository to your local machine using:
 ```bash
-git clone ...
+git clone https://github.com/lgandarillas/video2text-lgand.git
 ```
 
 ### 2. Create a Python Virtual Environment
