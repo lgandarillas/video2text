@@ -2,8 +2,8 @@
 
 ## Project Description
 This project provides a tool to convert MP4 video files to MP3 audio files and transcribe the audio to text using the Whisper library. It is designed to run on macOS and Linux systems, facilitating the easy conversion and transcription of video content.
-<br>
-![Conversion Process Diagram](assets/diagram.webp)
+<br><br>
+<img src="assets/diagram.webp" width="600" alt="Conversion Process Diagram">
 
 ## Features
 - Convert MP4 video files to MP3 audio.
