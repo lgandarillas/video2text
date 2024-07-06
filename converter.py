@@ -23,7 +23,8 @@ def transcribe_audio(audio_filepath):
     Parameters:
         audio_filepath (str): The path to the audio file.
     """
-    model = whisper.load_model("medium")  # 'large' for better accurracy
+    # whisper_models = ["tiny", "base", "small", "medium", "large"]
+    model = whisper.load_model("base")
     result = model.transcribe(audio_filepath)
     text_filepath = audio_filepath.replace(".mp3", ".txt")
     with open(text_filepath, "w") as file:
