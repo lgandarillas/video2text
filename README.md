@@ -40,9 +40,12 @@ pip install -r requirements.txt
 To use the converter, you need an MP4 file. Place your MP4 file in the same directory as the converter.py script or specify the path to the file when running the script.
 Run the script using the following command:
 ```bash
-python converter.py example_video.mp4
+python3 converter.py example_video.mp4
 ```
-This command will convert example_video.mp4 to example_video.mp3 and create a transcript file named example_video.txt.
+For example:
+```bash
+python3 converter.py Make_Your_Bed-McRaven.mp4
+```
 
 ## Conclusion
 This tool simplifies the process of converting videos to text, which can be useful for generating transcripts, analyzing spoken content, or simply extracting audio from video files.
