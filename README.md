@@ -1,7 +1,7 @@
 # Video to Text Converter
 
 ## Project Description
-This project provides a tool to convert MP4 video files to MP3 audio files and transcribe the audio to text using the Whisper library. It is designed to run on macOS and Linux systems, facilitating the easy conversion and transcription of video content.
+This project provides a tool to convert MP4 video files to MP3 audio files and transcribe the audio to text using the Whisper library. It is designed to run on macOS, Linux and Windows systems, facilitating the easy conversion and transcription of video content.
 <br><br>
 <img src="assets/diagram.webp" width="600" alt="Conversion Process Diagram">
 
@@ -20,16 +20,23 @@ python3 --version
 First, clone this repository to your local machine using:
 ```bash
 git clone https://github.com/lgandarillas/video2text-lgand.git
+cd video2text-lgand
 ```
 
 ### 2. Create a Python Virtual Environment
 To avoid any conflicts with existing Python packages, it is advisable to set up a virtual environment. Run the following command in the project directory:
+
 ```bash
 python3 -m venv venv
 ```
-Activate the virtual environment:
+Activate the virtual environment.<br>
+On macOS and Linux:
 ```
 source venv/bin/activate
+```
+On Windows:
+```
+.\venv\Scripts\activate
 ```
 
 ### 3. Install Required Packages
